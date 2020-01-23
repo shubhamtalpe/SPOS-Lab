@@ -1,0 +1,77 @@
+--------------------------------------
+First Come First Serve
+--------------------------------------
+
+JID	Arr	Burst	Wait	TAT
+
+105	1	2	0	2
+104	2	6	1	7
+102	7	5	2	7
+103	8	20	6	26
+106	11	18	23	41
+101	15	25	37	62
+
+Average Turn Around Time = 24.166666
+Total wait time = 69
+Average Wait Time = 11.5
+--------------------------------------
+
+
+--------------------------------------
+Round Robin (Time Quantum = 2)
+--------------------------------------
+
+JID	Arr	Burst	Wait	TAT
+
+105	1	2	0	2
+104	2	6	1	7
+102	7	5	8	13
+106	11	18	37	55
+103	8	20	40	60
+101	15	25	37	62
+
+Average Turn Around Time = 33.166668
+Total wait time = 123
+Average Wait Time = 20.5
+--------------------------------------
+
+
+--------------------------------------
+Shortest Job First
+--------------------------------------
+
+JID	Arr	Burst	Wait	TAT
+
+105	1	2	0	2
+104	2	6	1	7
+102	7	5	2	7
+106	11	18	3	21
+103	8	20	24	44
+101	15	25	37	62
+
+Average Turn Around Time = 23.833334
+Total wait time = 67
+Average Wait Time = 11.166667
+--------------------------------------
+
+
+--------------------------------------
+Priority
+--------------------------------------
+
+JID	Arr	Burst	Wait	TAT
+
+105	1	2	0	2
+104	2	6	1	7
+102	7	5	2	7
+103	8	20	6	26
+101	15	25	19	44
+106	11	18	48	66
+
+Average Turn Around Time = 25.333334
+Total wait time = 76
+Average Wait Time = 12.666667
+--------------------------------------
+
+
+Best algorithm for given inputs is SJF with average wait time = 11.166667
