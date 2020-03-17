@@ -56,7 +56,7 @@ public class PassOne {
 					instrRow.append(handleOperand(instr[1]));
 					
 					if(instr.length == 3){
-						instrRow.append(",").append(handleOperand(instr[2]));
+						instrRow.append(", ").append(handleOperand(instr[2]));
 					}
 					instrRow.append("\n");
 					mdtp++;
