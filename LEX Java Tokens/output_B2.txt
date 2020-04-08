@@ -1,0 +1,413 @@
+Output:
+
+import java.util.Scanner;	 --> Preprocessor
+public	 --> Access Specifier
+class	 --> Keywords
+Calculator	 --> Identifiers
+{	 --> Code Block Begin
+public	 --> Access Specifier
+native	 --> Keywords
+double	 --> Datatype
+add	 --> Identifiers
+(	 --> Paranthesis Begin
+double	 --> Datatype
+a	 --> Identifiers
+double	 --> Datatype
+b	 --> Identifiers
+)	 --> Paranthesis End
+;	 --> Delimiter
+public	 --> Access Specifier
+native	 --> Keywords
+double	 --> Datatype
+sub	 --> Identifiers
+(	 --> Paranthesis Begin
+double	 --> Datatype
+a	 --> Identifiers
+double	 --> Datatype
+b	 --> Identifiers
+)	 --> Paranthesis End
+;	 --> Delimiter
+public	 --> Access Specifier
+native	 --> Keywords
+double	 --> Datatype
+mul	 --> Identifiers
+(	 --> Paranthesis Begin
+double	 --> Datatype
+a	 --> Identifiers
+double	 --> Datatype
+b	 --> Identifiers
+)	 --> Paranthesis End
+;	 --> Delimiter
+public	 --> Access Specifier
+native	 --> Keywords
+double	 --> Datatype
+div	 --> Identifiers
+(	 --> Paranthesis Begin
+double	 --> Datatype
+a	 --> Identifiers
+double	 --> Datatype
+b	 --> Identifiers
+)	 --> Paranthesis End
+;	 --> Delimiter
+static	 --> Keywords
+{	 --> Code Block Begin
+System	 --> Identifiers
+load	 --> Identifiers
+(	 --> Paranthesis Begin
+/	 --> Arithmetic Operator
+home	 --> Identifiers
+/	 --> Arithmetic Operator
+shubham	 --> Identifiers
+/	 --> Arithmetic Operator
+DynamicLinkLibrary	 --> Identifiers
+/	 --> Arithmetic Operator
+calc	 --> Identifiers
+/	 --> Arithmetic Operator
+calculator	 --> Identifiers
+so	 --> Identifiers
+)	 --> Paranthesis End
+;	 --> Delimiter
+}	 --> Code Block End
+public	 --> Access Specifier
+static	 --> Keywords
+void	 --> Datatype
+main	 --> Identifiers
+(	 --> Paranthesis Begin
+String	 --> Datatype
+args	 --> Identifiers
+)	 --> Paranthesis End
+{	 --> Code Block Begin
+Calculator	 --> Identifiers
+calc	 --> Identifiers
+=	 --> Assignment Operator
+new	 --> Identifiers
+Calculator	 --> Identifiers
+(	 --> Paranthesis Begin
+)	 --> Paranthesis End
+;	 --> Delimiter
+Scanner	 --> Identifiers
+cin	 --> Identifiers
+=	 --> Assignment Operator
+new	 --> Identifiers
+Scanner	 --> Identifiers
+(	 --> Paranthesis Begin
+System	 --> Identifiers
+in	 --> Identifiers
+)	 --> Paranthesis End
+;	 --> Delimiter
+int	 --> Datatype
+ch	 --> Identifiers
+;	 --> Delimiter
+double	 --> Datatype
+num1	 --> Identifiers
+num2	 --> Identifiers
+;	 --> Delimiter
+do	 --> Iterative Construct
+{	 --> Code Block Begin
+System	 --> Identifiers
+out	 --> Identifiers
+println	 --> Identifiers
+(	 --> Paranthesis Begin
+nMENU	 --> Identifiers
+)	 --> Paranthesis End
+;	 --> Delimiter
+System	 --> Identifiers
+out	 --> Identifiers
+println	 --> Identifiers
+(	 --> Paranthesis Begin
+1	 --> Constant Integer
+Addition	 --> Identifiers
+)	 --> Paranthesis End
+;	 --> Delimiter
+System	 --> Identifiers
+out	 --> Identifiers
+println	 --> Identifiers
+(	 --> Paranthesis Begin
+2	 --> Constant Integer
+Subtraction	 --> Identifiers
+)	 --> Paranthesis End
+;	 --> Delimiter
+System	 --> Identifiers
+out	 --> Identifiers
+println	 --> Identifiers
+(	 --> Paranthesis Begin
+3	 --> Constant Integer
+Multiplication	 --> Identifiers
+)	 --> Paranthesis End
+;	 --> Delimiter
+System	 --> Identifiers
+out	 --> Identifiers
+println	 --> Identifiers
+(	 --> Paranthesis Begin
+4	 --> Constant Integer
+Division	 --> Identifiers
+)	 --> Paranthesis End
+;	 --> Delimiter
+System	 --> Identifiers
+out	 --> Identifiers
+println	 --> Identifiers
+(	 --> Paranthesis Begin
+0	 --> Constant Integer
+Exit	 --> Identifiers
+)	 --> Paranthesis End
+;	 --> Delimiter
+System	 --> Identifiers
+out	 --> Identifiers
+print	 --> Identifiers
+(	 --> Paranthesis Begin
+nEnter	 --> Identifiers
+Choice	 --> Identifiers
+)	 --> Paranthesis End
+;	 --> Delimiter
+ch	 --> Identifiers
+=	 --> Assignment Operator
+cin	 --> Identifiers
+nextInt	 --> Identifiers
+(	 --> Paranthesis Begin
+)	 --> Paranthesis End
+;	 --> Delimiter
+switch	 --> Conditional
+(	 --> Paranthesis Begin
+ch	 --> Identifiers
+)	 --> Paranthesis End
+{	 --> Code Block Begin
+case	 --> Conditional
+1	 --> Constant Integer
+System	 --> Identifiers
+out	 --> Identifiers
+print	 --> Identifiers
+(	 --> Paranthesis Begin
+nEnter	 --> Identifiers
+Number	 --> Identifiers
+1	 --> Constant Integer
+)	 --> Paranthesis End
+;	 --> Delimiter
+num1	 --> Identifiers
+=	 --> Assignment Operator
+cin	 --> Identifiers
+nextInt	 --> Identifiers
+(	 --> Paranthesis Begin
+)	 --> Paranthesis End
+;	 --> Delimiter
+System	 --> Identifiers
+out	 --> Identifiers
+print	 --> Identifiers
+(	 --> Paranthesis Begin
+nEnter	 --> Identifiers
+Number	 --> Identifiers
+2	 --> Constant Integer
+)	 --> Paranthesis End
+;	 --> Delimiter
+num2	 --> Identifiers
+=	 --> Assignment Operator
+cin	 --> Identifiers
+nextInt	 --> Identifiers
+(	 --> Paranthesis Begin
+)	 --> Paranthesis End
+;	 --> Delimiter
+System	 --> Identifiers
+out	 --> Identifiers
+println	 --> Identifiers
+(	 --> Paranthesis Begin
+nResult	 --> Identifiers
+is	 --> Identifiers
++	 --> Arithmetic Operator
+calc	 --> Identifiers
+add	 --> Identifiers
+(	 --> Paranthesis Begin
+num1	 --> Identifiers
+num2	 --> Identifiers
+)	 --> Paranthesis End
+)	 --> Paranthesis End
+;	 --> Delimiter
+break	 --> Identifiers
+;	 --> Delimiter
+case	 --> Conditional
+2	 --> Constant Integer
+System	 --> Identifiers
+out	 --> Identifiers
+print	 --> Identifiers
+(	 --> Paranthesis Begin
+nEnter	 --> Identifiers
+Number	 --> Identifiers
+1	 --> Constant Integer
+)	 --> Paranthesis End
+;	 --> Delimiter
+num1	 --> Identifiers
+=	 --> Assignment Operator
+cin	 --> Identifiers
+nextInt	 --> Identifiers
+(	 --> Paranthesis Begin
+)	 --> Paranthesis End
+;	 --> Delimiter
+System	 --> Identifiers
+out	 --> Identifiers
+print	 --> Identifiers
+(	 --> Paranthesis Begin
+nEnter	 --> Identifiers
+Number	 --> Identifiers
+2	 --> Constant Integer
+)	 --> Paranthesis End
+;	 --> Delimiter
+num2	 --> Identifiers
+=	 --> Assignment Operator
+cin	 --> Identifiers
+nextInt	 --> Identifiers
+(	 --> Paranthesis Begin
+)	 --> Paranthesis End
+;	 --> Delimiter
+System	 --> Identifiers
+out	 --> Identifiers
+println	 --> Identifiers
+(	 --> Paranthesis Begin
+nResult	 --> Identifiers
+is	 --> Identifiers
++	 --> Arithmetic Operator
+calc	 --> Identifiers
+sub	 --> Identifiers
+(	 --> Paranthesis Begin
+num1	 --> Identifiers
+num2	 --> Identifiers
+)	 --> Paranthesis End
+)	 --> Paranthesis End
+;	 --> Delimiter
+break	 --> Identifiers
+;	 --> Delimiter
+case	 --> Conditional
+3	 --> Constant Integer
+System	 --> Identifiers
+out	 --> Identifiers
+print	 --> Identifiers
+(	 --> Paranthesis Begin
+nEnter	 --> Identifiers
+Number	 --> Identifiers
+1	 --> Constant Integer
+)	 --> Paranthesis End
+;	 --> Delimiter
+num1	 --> Identifiers
+=	 --> Assignment Operator
+cin	 --> Identifiers
+nextInt	 --> Identifiers
+(	 --> Paranthesis Begin
+)	 --> Paranthesis End
+;	 --> Delimiter
+System	 --> Identifiers
+out	 --> Identifiers
+print	 --> Identifiers
+(	 --> Paranthesis Begin
+nEnter	 --> Identifiers
+Number	 --> Identifiers
+2	 --> Constant Integer
+)	 --> Paranthesis End
+;	 --> Delimiter
+num2	 --> Identifiers
+=	 --> Assignment Operator
+cin	 --> Identifiers
+nextInt	 --> Identifiers
+(	 --> Paranthesis Begin
+)	 --> Paranthesis End
+;	 --> Delimiter
+System	 --> Identifiers
+out	 --> Identifiers
+println	 --> Identifiers
+(	 --> Paranthesis Begin
+nResult	 --> Identifiers
+is	 --> Identifiers
++	 --> Arithmetic Operator
+calc	 --> Identifiers
+mul	 --> Identifiers
+(	 --> Paranthesis Begin
+num1	 --> Identifiers
+num2	 --> Identifiers
+)	 --> Paranthesis End
+)	 --> Paranthesis End
+;	 --> Delimiter
+break	 --> Identifiers
+;	 --> Delimiter
+case	 --> Conditional
+4	 --> Constant Integer
+System	 --> Identifiers
+out	 --> Identifiers
+print	 --> Identifiers
+(	 --> Paranthesis Begin
+nEnter	 --> Identifiers
+Number	 --> Identifiers
+1	 --> Constant Integer
+)	 --> Paranthesis End
+;	 --> Delimiter
+num1	 --> Identifiers
+=	 --> Assignment Operator
+cin	 --> Identifiers
+nextInt	 --> Identifiers
+(	 --> Paranthesis Begin
+)	 --> Paranthesis End
+;	 --> Delimiter
+System	 --> Identifiers
+out	 --> Identifiers
+print	 --> Identifiers
+(	 --> Paranthesis Begin
+nEnter	 --> Identifiers
+Number	 --> Identifiers
+2	 --> Constant Integer
+)	 --> Paranthesis End
+;	 --> Delimiter
+num2	 --> Identifiers
+=	 --> Assignment Operator
+cin	 --> Identifiers
+nextInt	 --> Identifiers
+(	 --> Paranthesis Begin
+)	 --> Paranthesis End
+;	 --> Delimiter
+System	 --> Identifiers
+out	 --> Identifiers
+println	 --> Identifiers
+(	 --> Paranthesis Begin
+nResult	 --> Identifiers
+is	 --> Identifiers
++	 --> Arithmetic Operator
+calc	 --> Identifiers
+div	 --> Identifiers
+(	 --> Paranthesis Begin
+num1	 --> Identifiers
+num2	 --> Identifiers
+)	 --> Paranthesis End
+)	 --> Paranthesis End
+;	 --> Delimiter
+break	 --> Identifiers
+;	 --> Delimiter
+case	 --> Conditional
+0	 --> Constant Integer
+System	 --> Identifiers
+out	 --> Identifiers
+println	 --> Identifiers
+(	 --> Paranthesis Begin
+Thank	 --> Identifiers
+You	 --> Identifiers
+!	 --> Logical Operator
+)	 --> Paranthesis End
+;	 --> Delimiter
+break	 --> Identifiers
+;	 --> Delimiter
+default	 --> Identifiers
+System	 --> Identifiers
+out	 --> Identifiers
+println	 --> Identifiers
+(	 --> Paranthesis Begin
+Enter	 --> Identifiers
+Valid	 --> Identifiers
+Choice	 --> Identifiers
+)	 --> Paranthesis End
+;	 --> Delimiter
+break	 --> Identifiers
+;	 --> Delimiter
+}	 --> Code Block End
+}	 --> Code Block End
+while	 --> Iterative Construct
+(	 --> Paranthesis Begin
+ch	 --> Identifiers
+!=	 --> Logical Operator
+0	 --> Constant Integer
+)	 --> Paranthesis End
+;	 --> Delimiter
+}	 --> Code Block End
+}	 --> Code Block End
