@@ -1,0 +1,11 @@
+shubham@shubham:~/YaccVarDeclaration$ yacc -d grammer.y 
+shubham@shubham:~/YaccVarDeclaration$ lex tokens.l 
+shubham@shubham:~/YaccVarDeclaration$ cc y.tab.c lex.yy.c 
+shubham@shubham:~/YaccVarDeclaration$ ./a.out input
+int	==>Integer
+a	==>Identifier
+=	==>Assignment operator
+10	==>Int no
+;	==>Delimiter
+Valid integer declaration
+shubham@shubham:~/YaccVarDeclaration$ 
