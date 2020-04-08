@@ -1,0 +1,7 @@
+shubham@shubham:~/LexStatistics$ lex statistics.l 
+shubham@shubham:~/LexStatistics$ cc lex.yy.c 
+shubham@shubham:~/LexStatistics$ ./a.out input.txt
+No. of lines: 3
+No. of words: 15
+No. of characters: 72
+shubham@shubham:~/LexStatistics$ 
