@@ -1,0 +1,15 @@
+shubham@shubham:~/YaccSyntaxAnalysis$ yacc -d grammer.y
+shubham@shubham:~/YaccSyntaxAnalysis$ lex tokens.l 
+shubham@shubham:~/YaccSyntaxAnalysis$ cc y.tab.c lex.yy.c 
+shubham@shubham:~/YaccSyntaxAnalysis$ ./a.out input
+PRONOUN	==>He
+VERB	==>goes
+PREPOSN	==>to
+NOUN	==>school
+CONJUNCN	==>and
+NOUN	==>she
+VERB	==>playing
+ADVERB	==>gently
+NOUN	==>football
+It is a compound sentence
+shubham@shubham:~/YaccSyntaxAnalysis$ 
