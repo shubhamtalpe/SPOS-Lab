@@ -1,0 +1,42 @@
+-----------
+FIFO Algorithm
+
+After page fault 1 [0]
+After page fault 2 [0, 2]
+After page fault 3 [0, 2, 1]
+After page fault 4 [0, 2, 1, 6]
+After page fault 5 [2, 1, 6, 4]
+After page fault 6 [1, 6, 4, 0]
+After page fault 7 [6, 4, 0, 3]
+After page fault 8 [4, 0, 3, 1]
+After page fault 9 [0, 3, 1, 2]
+
+Average page fault for FIFO algorithm is : 0.75
+
+
+-----------
+Least Recently Used Algorithm
+
+After page fault 1 [0]
+After page fault 2 [0, 2]
+After page fault 3 [0, 2, 1]
+After page fault 4 [0, 2, 1, 6]
+After page fault 5 [2, 1, 6, 4]
+After page fault 6 [1, 6, 4, 0]
+After page fault 7 [4, 1, 0, 3]
+After page fault 8 [0, 3, 1, 2]
+
+Average page fault for LRU algorithm is : 0.6666667
+
+
+-----------
+Optimal Algorithm
+
+After page fault 1 [0]
+After page fault 2 [0, 2]
+After page fault 3 [0, 2, 1]
+After page fault 4 [0, 2, 1, 6]
+After page fault 5 [0, 2, 1, 4]
+After page fault 6 [2, 1, 4, 3]
+
+Average page fault for optimal algorithm is : 0.5
