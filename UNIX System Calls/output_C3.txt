@@ -1,0 +1,122 @@
+shubham@shubham:~/Downloads$ gcc system.c 
+system.c: In function ‘main’:
+system.c:26:5: warning: implicit declaration of function ‘wait’; did you mean ‘main’? [-Wimplicit-function-declaration]
+     wait();
+     ^~~~
+     main
+system.c:71:11: warning: implicit declaration of function ‘psignal’ [-Wimplicit-function-declaration]
+           psignal(WTERMSIG(stat), "Exit signal");
+           ^~~~~~~
+shubham@shubham:~/Downloads$ ./a.out 
+UNIX COMMANDS EXECUTION
+
+
+Menu
+1.PS
+2.JOIN
+3.FORK
+4.WAIT
+5.Exec
+0.Exit
+Enter Your choice:1
+
+PS
+
+  PID TTY          TIME CMD
+ 3370 pts/0    00:00:00 bash
+ 3918 pts/0    00:00:00 a.out
+ 3919 pts/0    00:00:00 ps
+
+
+Menu
+1.PS
+2.JOIN
+3.FORK
+4.WAIT
+5.Exec
+0.Exit
+Enter Your choice:2
+
+Join File1 File2
+
+1 Soham Savalapurkar
+2 Shubham Talpe
+
+
+Menu
+1.PS
+2.JOIN
+3.FORK
+4.WAIT
+5.Exec
+0.Exit
+Enter Your choice:3
+
+Fork
+
+Hello from Parent 3918!
+Hello from Child 3921!
+
+
+
+
+Menu
+1.PS
+2.JOIN
+3.FORK
+4.WAIT
+5.Exec
+0.Exit
+Enter Your choice:4
+
+Wait
+
+In child
+In Parent
+Exit status: 1
+
+
+
+
+Menu
+1.PS
+2.JOIN
+3.FORK
+4.WAIT
+5.Exec
+0.Exit
+Enter Your choice:5
+
+EXEC ls
+
+ a.out		      output.txt	       SPOSL_31175_GroupB.pdf
+'Bankers Algorithm'  'Scheduling Algorithms'   SPOSL_31175_GroupB.zip
+ file1		      SPOSL_31175_GroupA.pdf   SPOSL_31175_GroupD.zip
+ file2		      SPOSL_31175_GroupA.zip   system.c
+
+
+Menu
+1.PS
+2.JOIN
+3.FORK
+4.WAIT
+5.Exec
+0.Exit
+Enter Your choice:6
+
+Enter Valid Choice
+
+
+
+Menu
+1.PS
+2.JOIN
+3.FORK
+4.WAIT
+5.Exec
+0.Exit
+Enter Your choice:0
+
+Thank You!
+
+shubham@shubham:~/Downloads$
